@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    
 }
 .First{
     height:450px;
@@ -77,10 +78,12 @@ a:hover{
     /* background-color: #357de2; */
     background-color: rgb(255, 255, 255); 
     padding:80px;
+    /* margin-bottom: 20px; */
+    /* border: 2px solid black; */
 }
 .body{
     width:880px;
-    height: 350px;
+    height: 380px;
     display:flex;
     /* border: 3px solid darkblue; */
     flex-direction: column;
@@ -90,12 +93,13 @@ a:hover{
     align-items: center;
     justify-content:center;
     gap:29px;
+    /* border: 2px solid black; */
 }
 .title{
     font-size:35px;
     font-weight:bold;
     color:maroon;
-    
+    /* border: 2px solid black; */
 }
 .boxes{
     flex-grow:1;
@@ -105,13 +109,14 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    /* border: 2px solid black; */
 }
 .boxes div{
     
     border: 3.5px solid darkorange;
     height:130px;
     width:130px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 .tiles{
     /* border:3px solid darkblue; */
@@ -121,7 +126,7 @@ a:hover{
     justify-content: center;
     gap: 55px;
     align-items: flex-start;
-    
+    /* border: 2px solid black; */
 
 }
 .tiles div{
@@ -129,12 +134,90 @@ a:hover{
     width: 130px;
     height:130px;
     color: maroon;
+    /* border: 2px solid black; */
 }
 
 .Third{
-    margin:0;
-    padding:0;
-    height:450px;
+    
+    height:200px;
     /* background-color: #1F2937; */
     background-color: rgb(168, 1, 1);
+    padding:150px;
+    /* border:2px solid black; */
+    
+    
+}
+.bod2{
+    /* border:2px solid black; */
+    margin-left: auto;
+    margin-right:auto;
+    
+    width: 880px;
+    display:flex;
+    flex-direction: column;
+    flex:1 1 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.words{
+    color:aliceblue;
+    font-size: 30px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+.author{
+    margin-top:15px;
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(250, 136, 136);
+}
+.Fourth{
+    height:200px;
+    color:white;
+    /* border:2px solid black; */
+    
+}
+.adv{
+    width:880px;
+    background-color: darkorange;
+    margin:auto;
+    margin-top: 60px;
+    display:flex;
+    flex:1 1 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding:30px;
+    border-radius: 15px;
+
+}
+
+.action{
+    flex-grow:2;
+    /* border:2px solid black; */
+}
+.button2{
+    border:2px solid white;
+    margin:auto;
+}
+.sent {
+    font-weight:bold;
+    font-size: large;
+}
+.Fifth{
+    background-color: maroon;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:35px;
+
+}
+.Fifth p{
+    color:white;
+    
+}
+button:hover{
+    background-color: yellow;
 }
